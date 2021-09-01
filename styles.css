@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.myNav {
+    background-color: #001E6C;
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 119, 255, 1) 100%); */
+}
+
+.jumbotron {
+    margin-top: 150px;
+}
+
+.myBtn {
+    background-color: #FFAA4C;
+    border: none;
+}
+
+.myBtn2 {
+    background-color: #001E6C;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    left: 50px;
+    margin-top: 172px;
+}
+
+.myDiv {
+    margin-left: auto;
+}
+
+.myDiv a {
+    margin-right: 30px;
+}
+
+.redoImg {
+    width: 100px;
+}
+
+.jumboContainer {
+    margin-top: 80px;
+}
+
+.jumboContainer a {
+    background-color: #035397;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+}
+
+.jumboTagline {
+    font-family: 'Montserrat';
+}
+
+#job {
+    margin-top: -200px;
+}
+
+#about {
+    background-color: #001E6C;
+    /* background-color: green; */
+    margin-top: 100px;
+   
+}
+
+.svg1 {
+    margin-top: -70px;
+}
+
+.tentangku {
+    margin-top: -150px;
+}
+
+.kotak img {
+    margin-top: -100px;
+}
+
+.kotak2 {
+    margin-top: -1px;
+}
+.humans1 {
+    margin-top: 20px;
+}
+
+.humans1 img {
+    width: 300px;
+}
+
+.wave7 img {
+    height: 117px;
+}
+
+.wave6 img {
+    height: 117px;
+}
+
+.btn2 {
+    background-color: #FFAA4C;
+    color: #001E6C;
+    border: none;
+    font-size: 15px;
+}
+
+.aboutMe {
+    color: #FFAA4C;
+}
+
+.tentangContent {
+    text-align: right;
+}
+
+.myPar1 {
+    font-family: 'Montserrat';
+}
+
+.card1 {
+    border-radius: 15px;
+    background-color: #001E6C;
+    width: 25%;
+}
+
+.card1 img {
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.color-orange {
+    color: #FFAA4C;
+}
+
+.card1-p {
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
+.custom-shape-divider-bottom-1630469187 {
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; */
+    margin-bottom: -2px;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1630469187 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-bottom-1630469187 .shape-fill {
+    fill: #035397;
+}
+
+.projects {
+    text-align: center;
+    color: white;
+    background-color: #035397;
+    font-size: 40px;
+}
+.project-show img {
+    width: 300px;
+}
+.ability-img {
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+
+.ability {
+    background-color: #035397;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+}
+
+.custom-shape-divider-top-1630469361 {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; */
+    margin-top: -2px;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1630469361 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-top-1630469361 .shape-fill {
+    fill: #035397;
+}
+
+footer {
+    background-color: #001E6C;
+    height: 80px;
+}
+@media screen and (max-device-width:1112px){
+    .myBtn2{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-device-width: 880px) {
+    .tentangku {
+        flex-direction: column;
+    }
+
+    #about {
+        margin-top: 100px;
+    }
+
+    .svg1 {
+        margin-top: 20px;
+    }
+
+    .tentangContent {
+        text-align: center;
+        margin-right: 50px;
+        width: 100%;
+    }
+
+    #job {
+        margin-top: -150px;
+    }
+
+    #job h2 {
+        padding-bottom: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        margin-top: 20px;
+    }
+
+    .card2 {
+        margin-top: 50px;
+    }
+
+    #ability {
+        width: 100%;
+    }
+
+    .ability {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ability-container {
+        text-align: center;
+    }
+
+    .myPar1 {
+        text-align: center;
+    }
+
+    .ability-img {
+        margin-top: -50px;
+    }
+
+    .project-show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-show a {
+        margin-top: 30px;
+    }
+
+    .myBtn2 {
+        position: unset;
+    }
+    
+}
+
+@media screen and (max-device-width: 700px) {
+    #job {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-device-width: 675px) {
+    .kotak img {
+        margin-top: -80px;
+    }
+
+    #about {
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-device-width: 380px) {
+    .jumbotron {
+        margin-top: 30px;
+    }
+
+    #job {
+        margin-top: -80px;
+    }
+
+    .kotak img {
+        margin-top: -50px;
+    }
+}
