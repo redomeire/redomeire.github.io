@@ -4,7 +4,6 @@
 body {
     font-family: 'Roboto';
 }
-
 .myNav {
     background-color: #001E6C;
     /* background: rgb(2, 0, 36);
@@ -64,7 +63,7 @@ body {
     background-color: #001E6C;
     /* background-color: green; */
     margin-top: 100px;
-   
+
 }
 
 .svg1 {
@@ -82,6 +81,7 @@ body {
 .kotak2 {
     margin-top: -1px;
 }
+
 .humans1 {
     margin-top: 20px;
 }
@@ -150,7 +150,7 @@ body {
 .custom-shape-divider-bottom-1630469187 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: 100%;
     height: 103px;
 }
 
@@ -164,9 +164,11 @@ body {
     background-color: #035397;
     font-size: 40px;
 }
+
 .project-show img {
     width: 300px;
 }
+
 .ability-img {
     margin-right: 10px;
     margin-bottom: 70px;
@@ -192,7 +194,7 @@ body {
 .custom-shape-divider-top-1630469361 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: 100%;
     height: 84px;
 }
 
@@ -204,16 +206,19 @@ footer {
     background-color: #001E6C;
     height: 80px;
 }
-@media screen and (max-device-width:1116px){
-    .myBtn2{
+
+@media screen and (max-device-width:1116px) {
+    .myBtn2 {
         margin-top: 220px;
     }
 }
-@media screen and (max-device-width:950px){
-    .myBtn2{
+
+@media screen and (max-device-width:950px) {
+    .myBtn2 {
         margin-top: 240px;
     }
 }
+
 @media screen and (max-device-width: 880px) {
     .tentangku {
         flex-direction: column;
@@ -288,7 +293,7 @@ footer {
     .myBtn2 {
         position: unset;
     }
-    
+
 }
 
 @media screen and (max-device-width: 700px) {
@@ -318,5 +323,14 @@ footer {
 
     .kotak img {
         margin-top: -50px;
+    }
+}
+
+@media screen and (max-device-width:360px){
+    section {
+        overflow-x: unset;
+    }
+    .myNav {
+        max-width: 360px;
     }
 }
