@@ -326,11 +326,11 @@ footer {
     }
 }
 
-@media screen and (max-device-width:360px){
+/* @media screen and (max-device-width:360px){
     section {
         overflow-x: unset;
     }
     .myNav {
         max-width: 360px;
     }
-}
+} */
