@@ -26,7 +26,7 @@ body {
     font-size: 15px;
     position: absolute;
     left: 50px;
-    margin-top: 174px;
+    margin-top: 200px;
 }
 
 .myDiv {
@@ -204,9 +204,14 @@ footer {
     background-color: #001E6C;
     height: 80px;
 }
-@media screen and (max-device-width:1112px){
+@media screen and (max-device-width:1116px){
     .myBtn2{
-        margin-top: 200px;
+        margin-top: 220px;
+    }
+}
+@media screen and (max-device-width:950px){
+    .myBtn2{
+        margin-top: 240px;
     }
 }
 @media screen and (max-device-width: 880px) {
