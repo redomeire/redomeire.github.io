@@ -286,6 +286,10 @@ footer {
         align-items: center;
     }
 
+    .project-show img {
+        margin-left: 13px;
+    }
+
     .project-show a {
         margin-top: 30px;
     }
@@ -324,5 +328,6 @@ footer {
     .kotak img {
         margin-top: -50px;
     }
+
 }
 
