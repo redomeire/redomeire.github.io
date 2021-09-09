@@ -280,6 +280,17 @@ footer {
         margin-top: -50px;
     }
 
+    .unijreng {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bookshelfApp {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -40px;
+    }
+
     .project-show {
         display: flex;
         flex-direction: column;
@@ -292,6 +303,7 @@ footer {
 
     .project-show a {
         margin-top: 30px;
+        margin-left: 15px;
     }
 
     .myBtn2 {
