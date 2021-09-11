@@ -28,8 +28,12 @@ body {
     margin-top: 200px;
 }
 
+.contactButtonDiv {
+    margin-top: -13px;
+}
 .myDiv {
     margin-left: auto;
+
 }
 
 .myDiv a {
@@ -217,6 +221,9 @@ footer {
     .myBtn2 {
         margin-top: 240px;
     }
+    .contactButton {
+        width: 30%;
+    }
 }
 
 @media screen and (max-device-width: 880px) {
@@ -316,6 +323,20 @@ footer {
     #job {
         margin-top: -100px;
     }
+    .myDiv {
+        margin-left: 30px;
+    }
+    .myDiv a {
+        text-align: center;
+    }
+    .contactButtonDiv {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    .contactButton {
+        text-align: center;
+    }
 }
 
 @media screen and (max-device-width: 675px) {
@@ -327,7 +348,11 @@ footer {
         margin-top: 140px;
     }
 }
-
+@media  screen and (max-device-width: 410px) {
+    .contactButton {
+        width: 40%;
+    }
+}
 @media screen and (max-device-width: 380px) {
     .jumbotron {
         margin-top: 30px;
@@ -340,6 +365,5 @@ footer {
     .kotak img {
         margin-top: -50px;
     }
-
 }
 
