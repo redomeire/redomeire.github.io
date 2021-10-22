@@ -33,7 +33,7 @@ form.addEventListener('submit', e => {
         })
 })
 
-function createAlertSuccess() {
+const createAlertSuccess = () => {
     const div1 = document.createElement('div');
     div1.classList.add('notifikasi1');
     div1.classList.add('alert');
@@ -74,7 +74,7 @@ function createAlertSuccess() {
     use.setAttribute("xlink:href", "#check-circle-fill");
 
     const strongDiv = document.createElement("div");
-    strongDiv.innerHTML = "<strong>Selamat!</strong> pesan anda berhasil terkirim";
+    strongDiv.innerHTML = `<strong>Selamat!</strong> pesan anda berhasil terkirim`;
 
     const buttonDiv = document.createElement("div");
     const button = document.createElement("button");
@@ -91,8 +91,7 @@ function createAlertSuccess() {
     tangkapForm1.append(div1);
 
 }
-
-function createAlertUnsuccess() {
+const createAlertUnsuccess = () => {
     const div1 = document.createElement('div');
     div1.classList.add("notifikasi2");
     div1.classList.add("alert");
@@ -133,7 +132,7 @@ function createAlertUnsuccess() {
     use.setAttribute("xlink:href", "#exclamation-triangle-fill");
 
     const strongDiv = document.createElement("div");
-    strongDiv.innerHTML = "<strong>Maaf!</strong> pesan anda gagal terkirim";
+    strongDiv.innerHTML = `<strong>Maaf!</strong> pesan anda gagal terkirim`;
 
     const buttonDiv = document.createElement("div");
     const button = document.createElement("button");
