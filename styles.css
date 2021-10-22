@@ -25,7 +25,12 @@ body {
     font-size: 15px;
     position: absolute;
     left: 50px;
-    margin-top: 200px;
+    margin-top: 5px;
+    transition: ease 0.5s;
+}
+
+.myBtn2:hover{
+    transform: translate(0, -10px);
 }
 
 .contactButtonDiv {
@@ -48,16 +53,22 @@ body {
     margin-top: 80px;
 }
 
-.jumboContainer a {
+.roll-button {
     background-color: #035397;
     border: none;
     height: 35px;
     font-size: 15px;
+    transition: ease 0.5s;
 }
 
+.roll-button:hover {
+    transform: translate(0, -10px);
+}
 .jumboTagline {
     font-family: 'Montserrat';
 }
+
+
 
 #job {
     margin-top: -200px;
@@ -102,11 +113,16 @@ body {
     height: 117px;
 }
 
-.btn2 {
+.cvButton {
     background-color: #FFAA4C;
     color: #001E6C;
     border: none;
     font-size: 15px;
+    transition: ease 0.5s;
+}
+
+.cvButton:hover{
+    transform: translate(0, -10px);
 }
 
 .aboutMe {
@@ -211,15 +227,15 @@ footer {
     height: 80px;
 }
 
-@media screen and (max-device-width:1116px) {
+/* @media screen and (max-device-width:1116px) {
     .myBtn2 {
         margin-top: 220px;
     }
-}
+} */
 
 @media screen and (max-device-width:950px) {
     .myBtn2 {
-        margin-top: 240px;
+        margin-top: 30px;
     }
     .contactButton {
         width: 30%;
