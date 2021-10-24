@@ -13,7 +13,6 @@ Feature :
 Built using :
 - bootstrap 5 and native css
 - Animation on Scroll (AOS)
-- Parallax.js
 - google spreadsheet (as database)
 
 Useful resource :
